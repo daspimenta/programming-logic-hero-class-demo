@@ -22,22 +22,22 @@ The `hero` class takes three properties through its constructor:
 | Property   | Description            |
 |:-----------|:-----------------------|
 | `heroName` | Hero's name            |
-| `age`      | Hero's age             |
-| `type`     | Hero's weapon or skill |
+| `level`    | Hero's level           |
+| `skill`    | Hero's skill           |
 
 It also defines two methods:
 
-- `attack()` prints a message saying the hero attacked using their type.
-- `use()` prints a message saying the hero is using their type.
+- `attack()` prints a message saying the hero attacked using their skill.
+- `use()` prints a message saying the hero is using their skill.
 
 ## Heroes
 
-| Name    | Age | Type         |
-|:--------|:----|:-------------|
-| Wizard  | 25  | magic        |
-| Warrior | 30  | sword        |
-| Monk    | 28  | martial arts |
-| Ninja   | 35  | shuriken     |
+| Name    | Level | Skill        |
+|:--------|:------|:-------------|
+| Wizard  | 25    | magic        |
+| Warrior | 30    | sword        |
+| Monk    | 28    | martial arts |
+| Ninja   | 35    | shuriken     |
 
 ## Getting Started
 
@@ -79,13 +79,13 @@ Ninja attacked by using shuriken
 ## Known Limitations
 
 - The `use()` method is defined but never called in the current script.
-- The `age` property is stored but not used by any method.
+- The `level` property is stored but not used by any method.
 - The constructor does not validate its inputs.
 
 ## Roadmap
 
 - [ ] Rename the class to `Hero` to follow the JavaScript naming convention
-- [ ] Use the `age` property in a method
+- [ ] Use the `level` property in a method
 - [ ] Add more methods, such as `defend()`
 - [ ] Validate the constructor inputs
 
