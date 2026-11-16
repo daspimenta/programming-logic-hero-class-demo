@@ -1,8 +1,5 @@
 # Hero Class Demo
 
-![JavaScript](https://img.shields.io/badge/language-JavaScript-informational)
-![License](https://img.shields.io/badge/license-MIT-blue)
-
 A small JavaScript program that demonstrates classes and objects. It defines a `hero` class, creates four hero instances, and prints an attack message for each one.
 
 ## Table of Contents
